@@ -25,6 +25,10 @@ h1{
     font-weight: 800;
     text-align: center;
 }
+.main-image{
+    width: fit-content;
+    margin: auto;
+}
 li{
     display: inline-block;
     font-family: "Roboto", sans-serif;
