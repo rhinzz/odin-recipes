@@ -20,6 +20,7 @@ h1{
     font-family: "Playfair Display", serif;
     font-size: 3rem;
     font-weight: 800;
+    text-align: center;
 }
 li{
     display: inline-block;
