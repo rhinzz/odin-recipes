@@ -12,6 +12,9 @@
 body{
     background-color: blanchedalmond;
 }
+.container, h1, img, ul{
+    margin-top: 1rem;
+}
 .container{
     width: fit-content;
     margin: auto;
