@@ -34,3 +34,17 @@ li{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
 }
+a:link, a:visited {
+    background-color: brown;
+    border-radius: 1rem;
+    color: white;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(145, 38, 38);
+  }
