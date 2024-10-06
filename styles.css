@@ -11,6 +11,7 @@
 }
 body{
     background-color: blanchedalmond;
+    font-family: "Roboto", sans-serif;
 }
 .container, h1, img, ul{
     margin-top: 1rem;
@@ -28,6 +29,12 @@ h1{
 .main-image{
     width: fit-content;
     margin: auto;
+}
+p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
 }
 li{
     display: inline-block;
