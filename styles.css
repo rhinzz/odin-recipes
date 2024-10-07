@@ -36,10 +36,11 @@ p{
     margin-top: 1rem;
     text-align: center;
 }
-li{
+.recipe{
     display: inline-block;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+}
+img{
+    width: 480px;
 }
 a:link, a:visited {
     background-color: brown;
@@ -56,12 +57,4 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: rgb(145, 38, 38);
-  }
-
-  @media only screen and (max-width: 900px) {
-    li{
-        display: flex;
-        flex-direction: column;
-        margin-top: 16px;
-    }
   }
