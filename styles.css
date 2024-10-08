@@ -10,7 +10,7 @@
     padding: 0;
 }
 body{
-    background-color: blanchedalmond;
+    background-color: #EEEBF2;
     font-family: "Roboto", sans-serif;
 }
 .container, h1, img, ul{
@@ -30,31 +30,80 @@ h1{
     width: fit-content;
     margin: auto;
 }
+h3{
+    color: #555252;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    margin-top: 8px;
+}
 p{
     font-size: 1.25rem;
     font-weight: 600;
-    margin-top: 1rem;
+    margin: 0.75rem 0;
     text-align: center;
 }
 .recipe{
     display: inline-block;
+    margin: 0 1.5rem;
 }
 img{
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+}
+a{
+    margin-top: 0.5rem;
+    font-weight: 800;
 }
 a:link, a:visited {
-    background-color: brown;
-    border-radius: 1rem;
+    background-color: #FB6231;
     color: white;
-    font-size: 1.15rem;
-    font-weight: 800;
-    margin: 0 0.75rem;
+    border: 2px solid #FB6231;
+    border-radius: 16px;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
   
-  a:hover, a:active {
-    background-color: rgb(145, 38, 38);
+a:hover, a:active {
+    background-color: white;
+    border: 2px solid #FB6231;
+    color: #FB6231;
+    transition: background-color 0.15s;
+}
+.copyright{
+    color: #555252;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1600px) {
+    body{
+        margin: 2rem;
+    }
+    h1{
+        font-size: 2.75rem;
+    }
+    img{
+        width: 100%;
+        max-width: 640px;
+        height: auto;
+    }
+    .container{
+        width: fit-content;
+        margin: auto;
+    }
+    .recipe-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .recipe{
+        margin: 0 auto;
+    }
+    a:link, a:visited {
+        padding: 0.75rem 1.5rem;
+    }
   }
